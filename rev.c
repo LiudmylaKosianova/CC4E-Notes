@@ -17,6 +17,7 @@ int main (){
     }
 
     char mySR[endS+1];
+    mySR[endS+1] = 0;
 
     for(i = 0, j=endS-1; j>=0; i++,j--){
         
